@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  echo:
+  - apiVersion: v2
+    appVersion: 0.3.1
+    created: "2022-05-13T18:59:16.511106604Z"
+    description: A Helm chart for echo-server
+    digest: be3a9e430abe0aa6a5f9b6b927d66949ff231082dcbca80a03b08592966c98fe
+    maintainers:
+    - name: rtsp
+    name: echo
+    type: application
+    urls:
+    - https://github.com/rtsp/helm-charts/releases/download/echo-1.0.0/echo-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-05-13T18:59:16.511112604Z"
