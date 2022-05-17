@@ -25,4 +25,17 @@ entries:
     urls:
     - https://github.com/rtsp/helm-charts/releases/download/echo-1.0.0/echo-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-17T21:19:00.078098656Z"
+  rtsp:
+  - apiVersion: v2
+    appVersion: 1.0.4
+    created: "2022-05-17T21:24:36.393353482Z"
+    description: A Helm chart for docker-rtsp
+    digest: f9744abe466f433f92c82bc6a38e644bcc3f716646b6fc58ea46c26b562066f5
+    maintainers:
+    - name: rtsp
+    name: rtsp
+    type: application
+    urls:
+    - https://github.com/rtsp/helm-charts/releases/download/rtsp-1.0.4/rtsp-1.0.4.tgz
+    version: 1.0.4
+generated: "2022-05-17T21:24:36.393360682Z"
