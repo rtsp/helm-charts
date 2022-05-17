@@ -10,6 +10,6 @@ spec:
   containers:
     - name: wget
       image: busybox
-      command: ['wget']
-      args: ['{{ include "echo.fullname" . }}:{{ .Values.service.port }}']
+      command: ['sh']
+      args: ['-c', 'for i in $(seq 1 24); do if wget {{ include "echo.fullname" . }}:{{ .Values.service.port }}; then break; fi; sleep 5; done']
   restartPolicy: Never
