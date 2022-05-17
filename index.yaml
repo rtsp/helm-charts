@@ -3,6 +3,18 @@ entries:
   echo:
   - apiVersion: v2
     appVersion: 0.3.1
+    created: "2022-05-17T21:19:00.078091656Z"
+    description: A Helm chart for echo-server
+    digest: 8afa3dcc4818d544ebd398bf3ce37d77e388dd1f25298cc90fd08861a3bc2797
+    maintainers:
+    - name: rtsp
+    name: echo
+    type: application
+    urls:
+    - https://github.com/rtsp/helm-charts/releases/download/echo-1.0.1/echo-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 0.3.1
     created: "2022-05-13T18:59:16.511106604Z"
     description: A Helm chart for echo-server
     digest: be3a9e430abe0aa6a5f9b6b927d66949ff231082dcbca80a03b08592966c98fe
@@ -13,4 +25,4 @@ entries:
     urls:
     - https://github.com/rtsp/helm-charts/releases/download/echo-1.0.0/echo-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-13T18:59:16.511112604Z"
+generated: "2022-05-17T21:19:00.078098656Z"
