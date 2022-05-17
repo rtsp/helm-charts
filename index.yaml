@@ -25,6 +25,19 @@ entries:
     urls:
     - https://github.com/rtsp/helm-charts/releases/download/echo-1.0.0/echo-1.0.0.tgz
     version: 1.0.0
+  net-tools:
+  - apiVersion: v2
+    appVersion: v1.0.10
+    created: "2022-05-17T21:29:11.968846664Z"
+    description: A Helm chart for docker-net-tools
+    digest: df398b76d9536006a119315281ba28a7fb7b78bb753f8e5e1f221faaf466764f
+    maintainers:
+    - name: rtsp
+    name: net-tools
+    type: application
+    urls:
+    - https://github.com/rtsp/helm-charts/releases/download/net-tools-1.0.10/net-tools-1.0.10.tgz
+    version: 1.0.10
   rtsp:
   - apiVersion: v2
     appVersion: 1.0.4
@@ -38,4 +51,4 @@ entries:
     urls:
     - https://github.com/rtsp/helm-charts/releases/download/rtsp-1.0.4/rtsp-1.0.4.tgz
     version: 1.0.4
-generated: "2022-05-17T21:24:36.393360682Z"
+generated: "2022-05-17T21:29:11.968854864Z"
