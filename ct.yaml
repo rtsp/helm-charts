@@ -1,6 +1,7 @@
 # See https://github.com/helm/chart-testing#configuration
 remote: origin
 target-branch: main
+since: HEAD~1
 chart-dirs:
   - charts
 print-config: true
