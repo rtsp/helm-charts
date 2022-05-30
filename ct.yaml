@@ -1,4 +1,5 @@
 # See https://github.com/helm/chart-testing#configuration
+check-version-increment: false
 remote: origin
 target-branch: main
 since: HEAD~1
