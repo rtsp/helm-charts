@@ -75,7 +75,7 @@ Create the name of the cluster role to use
 */}}
 {{- define "argocd-manager.clusterRoleName" -}}
 {{- if .Values.clusterRole.create }}
-{{- default (printf "%s-role" (include "argocd-manager.fullname" .)) .Values.clusterRole.name }}
+{{- default (include "argocd-manager.fullname" .) .Values.clusterRole.name }}
 {{- end }}
 {{- end }}
 
@@ -84,6 +84,6 @@ Create the name of the cluster role binding to use
 */}}
 {{- define "argocd-manager.clusterRoleBindingName" -}}
 {{- if .Values.clusterRoleBinding.create }}
-{{- default (printf "%s-role-binding" (include "argocd-manager.fullname" .)) .Values.clusterRoleBinding.name }}
+{{- default (include "argocd-manager.fullname" .) .Values.clusterRoleBinding.name }}
 {{- end }}
 {{- end }}
