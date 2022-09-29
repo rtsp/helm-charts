@@ -1,0 +1,52 @@
+# Default values for argocd-manager.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: true
+  # Annotations to add to the service account
+  annotations: {}
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name: ""
+
+  tokenSecret:
+    # The name of the service account token secret to use.
+    # If not set, a name is generated using the fullname template
+    name: ""
+    # Annotations to add to the service account token secret
+    annotations: {}
+
+clusterRole:
+  # Specifies whether a cluster role should be created
+  create: true
+  # Annotations to add to the cluster role
+  annotations: {}
+  # The name of the cluster role to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name: ""
+  # Override cluster role default rules
+  rules: []
+    # - apiGroups:
+    #   - '*'
+    #   resources:
+    #   - '*'
+    #   verbs:
+    #   - '*'
+    # - nonResourceURLs:
+    #   - '*'
+    #   verbs:
+    #   - '*'
+
+clusterRoleBinding:
+  # Specifies whether a cluster role binding should be created
+  create: true
+  # Annotations to add to the cluster role binding
+  # The name of the cluster role binding to use.
+  # If not set and create is true, a name is generated using the fullname template
+  annotations: {}
+  name: ""
