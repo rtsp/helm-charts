@@ -1,0 +1,27 @@
+{{- if .Values.clusterRole.create }}
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: {{ include "argocd-manager.clusterRoleName" . }}
+  labels:
+    {{- include "argocd-manager.labels" . | nindent 4 }}
+  {{- with .Values.clusterRole.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+rules:
+  {{- if .Values.clusterRole.rules }}
+  {{- toYaml .Values.clusterRole.rules | nindent 0 }}
+  {{- else }}
+- apiGroups:
+  - '*'
+  resources:
+  - '*'
+  verbs:
+  - '*'
+- nonResourceURLs:
+  - '*'
+  verbs:
+  - '*'
+  {{- end }}
+{{- end }}
