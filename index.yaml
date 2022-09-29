@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   argocd-manager:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-09-29T20:01:36.708354787Z"
+    description: argocd-manager RBAC for remote clusters
+    digest: 367adc4baf07ee3232cd993ee1de6ea45748aa5f151db5dc16e4124d85241dfc
+    maintainers:
+    - name: rtsp
+    name: argocd-manager
+    type: application
+    urls:
+    - https://github.com/rtsp/helm-charts/releases/download/argocd-manager-1.0.0/argocd-manager-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2022-09-29T19:48:06.64139747Z"
     description: argocd-manager RBAC for remote clusters
@@ -377,4 +389,4 @@ entries:
     urls:
     - https://github.com/rtsp/helm-charts/releases/download/rtsp-1.0.4/rtsp-1.0.4.tgz
     version: 1.0.4
-generated: "2022-09-29T19:48:06.64145467Z"
+generated: "2022-09-29T20:01:36.708548488Z"
