@@ -1,0 +1,2 @@
+# See https://github.com/helm/chart-releaser#configuration
+skip-existing: true
