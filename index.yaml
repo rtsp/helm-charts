@@ -88,6 +88,18 @@ entries:
     version: 1.0.0
   mongosh:
   - apiVersion: v2
+    appVersion: 1.8.1
+    created: "2023-04-29T12:15:43.511039595Z"
+    description: A Helm chart for docker-mongosh
+    digest: d6bb5e2f2c8facc286e426d508db6345da47341d28c060a70afd63dfc50fe6c0
+    maintainers:
+    - name: rtsp
+    name: mongosh
+    type: application
+    urls:
+    - https://github.com/rtsp/helm-charts/releases/download/mongosh-1.8.1/mongosh-1.8.1.tgz
+    version: 1.8.1
+  - apiVersion: v2
     appVersion: 1.8.0
     created: "2023-03-23T14:54:37.878745067Z"
     description: A Helm chart for docker-mongosh
@@ -220,6 +232,18 @@ entries:
     - https://github.com/rtsp/helm-charts/releases/download/mongosh-1.4.2/mongosh-1.4.2.tgz
     version: 1.4.2
   net-tools:
+  - apiVersion: v2
+    appVersion: 1.3.3
+    created: "2023-04-29T12:15:43.631518154Z"
+    description: A Helm chart for docker-net-tools
+    digest: 012c5d978e5207d5ea97522312aba4545599d5e2b9fac7ea75c3ef59d8f8e346
+    maintainers:
+    - name: rtsp
+    name: net-tools
+    type: application
+    urls:
+    - https://github.com/rtsp/helm-charts/releases/download/net-tools-1.3.3/net-tools-1.3.3.tgz
+    version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
     created: "2023-03-23T14:56:59.14810784Z"
@@ -449,6 +473,18 @@ entries:
     - https://github.com/rtsp/helm-charts/releases/download/net-tools-1.0.10/net-tools-1.0.10.tgz
     version: 1.0.10
   rtsp:
+  - apiVersion: v2
+    appVersion: 1.3.3
+    created: "2023-04-29T12:15:43.753150122Z"
+    description: A Helm chart for docker-rtsp
+    digest: d70f004d7653e31ff84a0114975d1ec0d5986b5bc421b5c6df895bf66a808d17
+    maintainers:
+    - name: rtsp
+    name: rtsp
+    type: application
+    urls:
+    - https://github.com/rtsp/helm-charts/releases/download/rtsp-1.3.3/rtsp-1.3.3.tgz
+    version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
     created: "2023-03-23T15:04:55.257656463Z"
@@ -725,4 +761,4 @@ entries:
     urls:
     - https://github.com/rtsp/helm-charts/releases/download/rtsp-1.0.4/rtsp-1.0.4.tgz
     version: 1.0.4
-generated: "2023-03-23T15:04:55.257842964Z"
+generated: "2023-04-29T12:15:43.753970828Z"
