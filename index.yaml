@@ -714,6 +714,18 @@ entries:
     version: 1.0.10
   rtsp:
   - apiVersion: v2
+    appVersion: 1.4.5
+    created: "2023-09-20T11:27:06.01147718Z"
+    description: A Helm chart for docker-rtsp
+    digest: e7f7b6344520dd1fddd90f80658e6b005a318ebc8256618d9bd499e988af9218
+    maintainers:
+    - name: rtsp
+    name: rtsp
+    type: application
+    urls:
+    - https://github.com/rtsp/helm-charts/releases/download/rtsp-1.4.5/rtsp-1.4.5.tgz
+    version: 1.4.5
+  - apiVersion: v2
     appVersion: 1.4.4
     created: "2023-09-20T10:23:08.384165805Z"
     description: A Helm chart for docker-rtsp
@@ -1085,4 +1097,4 @@ entries:
     urls:
     - https://github.com/rtsp/helm-charts/releases/download/rtsp-1.0.4/rtsp-1.0.4.tgz
     version: 1.0.4
-generated: "2023-09-20T10:34:23.714873784Z"
+generated: "2023-09-20T11:27:06.011885886Z"
