@@ -6,4 +6,3 @@ since: HEAD~1
 chart-dirs:
   - charts
 print-config: true
-helm-extra-args: --timeout 600s
