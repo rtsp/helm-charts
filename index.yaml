@@ -521,6 +521,18 @@ entries:
     version: 1.4.2
   net-tools:
   - apiVersion: v2
+    appVersion: 1.4.17
+    created: "2024-06-14T14:17:36.051716828Z"
+    description: A Helm chart for docker-net-tools
+    digest: d52729710926660c1d006feca040cf94106884cb837a08340209cbb22a764e83
+    maintainers:
+    - name: rtsp
+    name: net-tools
+    type: application
+    urls:
+    - https://github.com/rtsp/helm-charts/releases/download/net-tools-1.4.17/net-tools-1.4.17.tgz
+    version: 1.4.17
+  - apiVersion: v2
     appVersion: 1.4.16
     created: "2024-05-15T15:06:14.220150473Z"
     description: A Helm chart for docker-net-tools
@@ -1469,4 +1481,4 @@ entries:
     urls:
     - https://github.com/rtsp/helm-charts/releases/download/rtsp-1.0.4/rtsp-1.0.4.tgz
     version: 1.0.4
-generated: "2024-05-17T15:51:50.336051964Z"
+generated: "2024-06-14T14:17:36.052241241Z"
