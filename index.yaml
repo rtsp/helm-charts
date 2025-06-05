@@ -88,6 +88,18 @@ entries:
     version: 1.0.0
   mongosh:
   - apiVersion: v2
+    appVersion: 2.5.2
+    created: "2025-06-05T19:05:41.372761193Z"
+    description: A Helm chart for docker-mongosh
+    digest: 622356bef100934f32e4414779a1d5b4e0d74a971199a15843e0658e28b6a77f
+    maintainers:
+    - name: rtsp
+    name: mongosh
+    type: application
+    urls:
+    - https://github.com/rtsp/helm-charts/releases/download/mongosh-2.5.2/mongosh-2.5.2.tgz
+    version: 2.5.2
+  - apiVersion: v2
     appVersion: 2.5.0
     created: "2025-04-10T15:43:50.685605774Z"
     description: A Helm chart for docker-mongosh
@@ -1817,4 +1829,4 @@ entries:
     urls:
     - https://github.com/rtsp/helm-charts/releases/download/rtsp-1.0.4/rtsp-1.0.4.tgz
     version: 1.0.4
-generated: "2025-06-01T12:53:59.088704722Z"
+generated: "2025-06-05T19:05:41.373074667Z"
